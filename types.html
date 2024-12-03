@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About - In The Dust</title>
+    <title>In The Dust</title>
     <style>
         body {
             margin: 0;
@@ -21,8 +21,8 @@
             position: relative;
             height: 120px;
         }
-		
-		.logo {
+
+        .logo {
             width: 150px;
             height: 150px;
             position: absolute;
@@ -35,13 +35,15 @@
             margin: 0;
             text-align: center;
             color: #818095;
+			font-family: georgia;
         }
 		
-		header h1 {
-			font-size: 100px;
+
+        header h1 {
+            font-size: 100px;
 			font-family: garamond;
 			color: white;
-		}
+        }
 
         nav {
             position: absolute;
@@ -66,8 +68,8 @@
             padding: 10px 15px;
             border-radius: 5px;
             font-size: 16px;
-			font-family: comic sans;
             transition: all 0.3s ease;
+			font-family: comic sans;
         }
 
         nav a.nav-active1 {
@@ -86,62 +88,27 @@
             padding: 30px;
             background-color: #e0dfd8;
             border-radius: 10px;
-            color: #454545;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         h2 {
             font-size: 24px;
-			font-family: garamond;
+			font-family: comic sans;
             color: #818095;
-            margin-top: 20px;
             margin-bottom: 10px;
         }
 
         p {
-            font-size: 20px;
+            font-size: 30px;
 			font-family: comic sans;
-            line-height: 24px;
+            line-height: 39px;
             margin-bottom: 20px;
         }
 		
 		u {
-			font-size: 50px;
+			font-size: 20px;
 			font-family: garamond;
 		}
-
-        .values {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .value {
-            width: 280px;
-            padding: 20px;
-            background-color: #aaa9c5;
-            border-radius: 10px;
-            border: 2px solid #818095;
-            text-align: center;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease-in-out;
-        }
-
-        .value h3 {
-            font-size: 25px;
-			font-family: georgia;
-            color: #15132d;
-            margin-bottom: 10px;
-        }
-
-        .value p {
-            font-size: 14px;
-        }
-
-        .value:hover {
-            border-color: #454545;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-        }
 
         .case-item {
             margin-bottom: 20px;
@@ -238,78 +205,91 @@
     </style>
 </head>
 <body>
+
 <header class="header">
     <a href="Q2-AA-1.html"><img src="Logo.png" alt="Logo" class="logo"></a>
     <h1>In The Dust</h1>
     <nav>
         <ul>
-            <li><a href="Q2-AA-1.html">Home</a></li>
+           <li><a class="nav-active1" href="Q2-AA-1.html">Home</a></li>
             <li><a href="Q2-AA-1-CASES.html">Cases</a></li>
-            <li><a class="nav-active1" href="Q2-AA-1-ABOUT.html">About</a></li>
+            <li><a href="Q2-AA-1-ABOUT.html">About</a></li>
             <li><a href="Q2-AA-1-CONTACT.html">Contact</a></li>
         </ul>
     </nav>
 </header>
+<section> <h1> Types of Crime </h1> </section>
 
 <section class="content">
-    <h1>About Us</h1>
-    <p>At <strong>In The Dust</strong>, our mission is to raise awareness about crime and foster community resilience across the Philippines. By educating and empowering individuals, we aim to create safer environments where every citizen feels protected.</p>
+    <h1>What is Crime?</h1>
+    <p>A crime is an unlawful act defined by a country's legal system as harmful to individuals, society, or the state. It can involve actions
+	like theft or assault or the failure to act when required by law such as neglect of duties. Crimes are categorized based on their severity, 
+	such as misdemeanors which are less serious offenses like vandalism and felonies which are serious offenses like murder. When someone commits 
+	a crime, they may face penalties such as fines, imprisonment, community service, or other legal consequences, determined through a judicial process.
+</p>
 
-    <h2>Our Vision</h2>
-    <p>We envision a <span style="color: #15132d; font-weight: bold;">safer, more vigilant Philippines</span> where communities are united against crime, promoting trust, justice, and cooperation for a better future.</p>
+ </section>
 
-    <h2>Our Mission</h2>
-    <p>To empower communities through information, technology, and actionable strategies that address the root causes of crime. Together, we strive to make the Philippines a place where everyone feels safe.</p>
+<section class="content">
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Kidnapping.png" alt="Kidnapping Icon"> 
+            <u>Jayme Closs Kidnapping Case: Survivor's Brave Escape After 88 Days of Captivity</u>
+            <span class="badge">Solved</span>
+        </div>
+        <p class="case-summary">The Jayme Closs kidnapping case involved 13-year-old Jayme Closs, who was abducted in 2018 after
+		her parents were murdered in their home in Barron, Wisconsin. The kidnapper, Jake Patterson, held her captive for 88 days, 
+		during which she endured abuse. Jayme eventually managed to escape and was found by a neighbor, leading to Patterson's arrest. 
+		He was later convicted of two counts of first-degree intentional homicide and one count of kidnapping, receiving a life sentence 
+		without parole. The case drew national attention, showcasing Jayme’s bravery and resilience in the face of unimaginable trauma.
+		</p>
+    </div>
+	
 
-    <h2>Core Values</h2>
-    <div class="values">
-        <div class="value">
-            <h3>Integrity</h3>
-            <p>We prioritize honesty and transparency, fostering trust in our mission to promote public safety.</p>
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Sexual_Assault.png" alt="Sexual Assault Icon">
+            <u>Harvey Weinstein</u>
+            <span class="badge">Ongoing</span>
         </div>
-        <div class="value">
-            <h3>Community</h3>
-            <p>We believe that strong, proactive communities are the foundation of crime prevention and resilience.</p>
-        </div>
-        <div class="value">
-            <h3>Innovation</h3>
-            <p>We embrace creativity and technology to develop effective tools and resources for fighting crime.</p>
-        </div>
+        <p class="case-summary">The Harvey Weinstein case is a prominent example of sexual assault, 
+		involving accusations from over 80 women of misconduct spanning decades. In 2020, Weinstein
+		was convicted of rape and sexual assault against two women and sentenced to 23 years in prison. 
+		This landmark case became a catalyst for the #MeToo movement, bringing global attention to the pervasive 
+		issue of sexual violence and accountability for powerful individuals.
+ </p>
     </div>
 
-    <h2>Why Choose Us?</h2>
-    <p><strong>In The Dust</strong> offers a unique combination of expertise, technology, and community-driven solutions. We focus on raising awareness, promoting education, and driving collective action to make a meaningful difference in public safety.</p>
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Murder.png" alt="Murder Icon">
+            <u>OJ Simpson Murder Trial: The Controversial Acquittal That Shocked the Nation</u>
+            <span class="badge">Unsolved</span>
+        </div>
+        <p class="case-summary">One of the most well-known cases of murder is the O.J. Simpson murder trial in the United States. In 1994, O.J.
+		Simpson was accused of murdering his ex-wife, Nicole Brown Simpson, and her friend, Ron Goldman. Despite strong evidence, including DNA 
+		and a bloody glove, he was acquitted in a highly publicized trial. However, in a later civil case, Simpson was found liable for their 
+		wrongful deaths and ordered to pay damages. The case remains a significant example of how legal outcomes can differ in criminal and civil courts.
+		</p>
+
+    </div>
+
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Terrorism.png" alt="Terrorism Icon">
+            <u>Battle of Marawi: Terrorist Siege Ends After Five Months of Intense Fighting</u>
+            <span class="badge">Solved</span>
+        </div>
+        <p class="case-summary">The 2017 Marawi Siege was a major act of terrorism in the Philippines, where ISIS-linked militants, including 
+		the Maute Group and Abu Sayyaf, seized the city of Marawi in Mindanao, aiming to establish an ISIS stronghold. The siege lasted for five months,
+		resulting in over 1,100 deaths, including militants, soldiers, and civilians. The Philippine military launched a large-scale operation to retake the
+		city, which was declared liberated in October 2017. The siege caused widespread destruction, displacing thousands of civilians, and highlighted the 
+		ongoing threat of extremist groups in the region.
+		</p>
+
+    </div>
 </section>
 
-<h1> Everything Crime</h1>
-
-<section class="content">
-    <div class="case-item">
-        <div class="case-title">
-            <img src="cu.jpg" alt="Crime"> 
-            <u>Crime</u>
-        </div>
-        <p class="case-summary">Learn more about what crime is!</p>
-        <a href="crime.html">Read more</a>
-    </div>
-	<section class="content">
-    <div class="case-item">
-        <div class="case-title">
-            <img src="ye.jpg" alt="Prevention"> 
-            <u>Prevention of Crime</u>
-        </div>
-        <p class="case-summary">Learn more about how you can help the community!</p>
-        <a href="prevention.html">Read more</a>
-    </div>
-	<section class="content">
-    <div class="case-item">
-        <div class="case-title">
-            <img src="ye.jpg" alt="Types"> 
-            <u>Types of Crime</u>
-        </div>
-        <p class="case-summary">Here is what you should be wary about!</p>
-        <a href="types.html">Read more</a>
-    </div>
 <footer>
     <p>© 2024 In The Dust | <a href="#">Privacy Policy</a></p>
 </footer>
