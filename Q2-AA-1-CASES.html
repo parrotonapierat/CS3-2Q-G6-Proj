@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>In The Dust</title>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(to bottom, #e0dfd8, #aaa9c5);
+            font-family: 'Fjalla One', sans-serif;
+            color: #454545;
+        }
+
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: #15132d;
+            border-bottom: 3px solid #818095;
+            color: #e0dfd8;
+            position: relative;
+            height: 120px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 5px;
+            left: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+			font-family: georgia;
+            margin: 0;
+            text-align: center;
+            color: #818095;
+        }
+
+        header h1 {
+            font-size: 100px;
+			font-family: garamond;
+			color: white;
+        }
+
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #e0dfd8;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+			font-family: comic sans;
+        }
+
+        nav a.nav-active1 {
+            background-color: #e0dfd8;
+            color: #15132d;
+        }
+
+        nav a:hover {
+            background-color: #818095;
+            color: #e0dfd8;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 100px auto;
+            padding: 30px;
+            background-color: #e0dfd8;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 24px;
+			font-family: comic sans;
+            color: #818095;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 30px;
+			font-family: comic sans;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+		
+		u {
+			font-size: 20px;
+			font-family: garamond;
+		}
+
+        .case-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #aaa9c5;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .case-item:hover {
+            background: #818095;
+            color: #e0dfd8;
+        }
+
+        .case-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #15132d;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+			
+        }
+
+        .case-title img {
+            width: 300px;
+            height: 200px;
+            margin-right: 10px;
+        }
+
+        .case-summary {
+            font-size: 14px;
+            color: #454545;
+        }
+
+        .badge {
+            background: #e0dfd8;
+            color: #15132d;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            margin-left: auto;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: #aaa9c5;
+            border-radius: 10px;
+            color: #15132d;
+        }
+
+        .cta h2 {
+            font-size: 20px;
+            color: #15132d;
+            margin-bottom: 10px;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #15132d;
+            color: #e0dfd8;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: #e0dfd8;
+            color: #15132d;
+            border: 2px solid #15132d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #15132d;
+            color: #e0dfd8;
+        }
+
+        footer a {
+            color: #e0dfd8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <a href="Q2-AA-1.html"><img src="Logo.png" alt="Logo" class="logo"></a>
+    <h1>In The Dust</h1>
+    <nav>
+        <ul>
+            <li><a href="Q2-AA-1.html">Home</a></li>
+            <li><a class="nav-active1" href="Q2-AA-1-CASES.html">Cases</a></li>
+            <li><a href="Q2-AA-1-ABOUT.html">About</a></li>
+            <li><a href="Q2-AA-1-CONTACT.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="content">
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Kidnapping.png" alt="Kidnapping Icon"> 
+            <u>Jayme Closs Kidnapping Case: Survivor's Brave Escape After 88 Days of Captivity</u>
+            <span class="badge">Solved</span>
+        </div>
+        <p class="case-summary">In 2018, Jayme Closs was abducted after her parents were murdered. She was held captive for 88 days but eventually managed to escape. The case became a pivotal moment in the field of crime prevention and public awareness.</p>
+        <a href="https://www.nbcnews.com/news/us-news/jayme-closs-wisconsin-teen-who-escaped-captor-2019-doing-good-n1253938" target="_blank">Read more</a>
+    </div>
+
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Sexual_Assault.jpeg" alt="Sexual Assault Icon">
+            <u>Quiboloy Case: Sexual Abuse Allegations Rock Philippine Religious Leader's Empire</u>
+            <span class="badge">Ongoing</span>
+        </div>
+        <p class="case-summary">Apollo Quiboloy, a Philippine religious leader, faces serious allegations of sexual abuse and trafficking. The investigation is still ongoing, with victims bravely seeking justice.</p>
+        <a href="https://newsinfo.inquirer.net/1982255/quiboloys-sexual-abuse-victims-as-young-as-12-years-old-in-latest-testimony" target="_blank">Read more</a>
+    </div>
+
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Murder.png" alt="Murder Icon">
+            <u>OJ Simpson Murder Trial: The Controversial Acquittal That Shocked the Nation</u>
+            <span class="badge">Unsolved</span>
+        </div>
+        <p class="case-summary">The O.J. Simpson trial for the murders of Nicole Brown Simpson and Ron Goldman remains one of the most publicized cases in legal history. Despite strong evidence, Simpson was acquitted in criminal court.</p>
+        <a href="https://abcnews.go.com/US/key-moments-oj-simpsons-life/story?id=48724637" target="_blank">Read more</a>
+    </div>
+
+    <div class="case-item">
+        <div class="case-title">
+            <img src="Terrorism.png" alt="Terrorism Icon">
+            <u>Battle of Marawi: Terrorist Siege Ends After Five Months of Intense Fighting</u>
+            <span class="badge">Solved</span>
+        </div>
+        <p class="case-summary">The Marawi Siege in 2017 involved ISIS-linked militants attempting to establish an ISIS stronghold in the Philippines. The siege lasted for five months and left over 1,100 casualties.</p>
+        <a href="https://www.amnesty.org/en/latest/press-release/2017/11/philippines-battle-of-marawi-leaves-trail-of-death-and-destruction/" target="_blank">Read more</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 In The Dust | <a href="#">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
